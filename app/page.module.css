@@ -1,0 +1,54 @@
+.home {
+    height: 696px;
+    min-width: 1440px;
+    max-width: 1440px;
+    background-image: url("../public/home/hero_1x_desk.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    font-family: var(--font-family);
+    color: var(--inputs);
+}
+
+.home_wrapper {
+    max-width: 571px;
+    height: 176px;
+    padding: 260px 0;
+}
+
+.title {
+    height: 32px;
+    margin-bottom: 16px;
+}
+
+.title h1 {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 67%;
+}
+
+.sub_title {
+    height: 32px;
+    margin-bottom: 40px;
+}
+
+.sub_title h2 {
+    font-size: 24px;
+    line-height: 133%;
+}
+
+.link {
+    width: 173px;
+    height: 56px;
+    padding: 16px 60px;
+
+    border-radius: 200px;
+    background-color: var(--button);
+    cursor: pointer;
+}
+
+.link:hover,
+.link:focus {
+    background: var(--button-hover);
+}
