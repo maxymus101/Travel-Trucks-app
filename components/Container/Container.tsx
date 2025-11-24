@@ -8,6 +8,6 @@ interface ContainerProps {
 }
 
 const Container = ({ children, className }: ContainerProps) => {
-  return <div className={clsx(css.container, className)}></div>;
+  return <div className={clsx(css.container, className)}>{children}</div>;
 };
 export default Container;

@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 
 import Header from "../components/Header/Header";
+// import Container from "@/components/Container/Container";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -25,8 +26,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.variable}`}>
         <Header />
-        <main></main>
-        <footer></footer>
+        <main>{children}</main>
+        <footer>{/* <Container></Container> */}</footer>
       </body>
     </html>
   );
