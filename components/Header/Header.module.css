@@ -1,1 +1,53 @@
-.logo {}
+.header {
+    min-width: 1440px;
+    max-width: 1440px;
+    height: 72px;
+    display: flex;
+
+    background-color: var(--inputs);
+
+
+    font-family: var(--font-inter);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+
+
+}
+
+.header_wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 450px;
+}
+
+.logo {
+    font-weight: 600;
+    color: var(--main);
+
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.logo_span {
+    font-weight: 600;
+    color: var(--text);
+}
+
+.header nav {
+    display: flex;
+}
+
+.nav_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+}
+
+.nav_el:hover,
+.nav_el:focus {
+    color: var(--button-hover);
+}
